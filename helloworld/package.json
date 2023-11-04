@@ -15,6 +15,10 @@
     "commands": [{
       "command": "helloworld.helloWorld",
       "title": "Hello World"
+    },
+    {
+      "command": "jeffs_helloworld.helloWorld",
+      "title": "Jeff's Hello World"
     }]
   },
   "scripts": {

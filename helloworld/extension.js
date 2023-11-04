@@ -24,7 +24,16 @@ function activate(context) {
 		vscode.window.showInformationMessage('Hello World from HelloWorld!');
 	});
 
+	let disposable1 = vscode.commands.registerCommand('jeffs_helloworld.helloWorld', function () {
+		// The code you place here will be executed every time your command is executed
+
+		// Display a message box to the user
+		vscode.window.showInformationMessage('Hello World from Jeff!');
+	});
+
 	context.subscriptions.push(disposable);
+	context.subscriptions.push(disposable1);
+
 }
 
 // This method is called when your extension is deactivated
